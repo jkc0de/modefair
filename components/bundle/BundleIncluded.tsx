@@ -1,4 +1,5 @@
-// BundleIncluded component
+"use client";
+
 import { useContext } from "react";
 import Image from "next/image";
 import { BundleContext } from "@/context/BundleContext";
@@ -18,7 +19,7 @@ export default function BundleIncluded() {
     includedItems?.length > 0 && (
       <div className="mx-auto w-full pb-[46px] lg:w-[980px]">
         <h2 className="pb-[41px] pt-16 text-center text-[28px] leading-[1.1] md:text-[40px]">
-          What's in the Box
+          What&apos;s in the Box
         </h2>
         <div className="relative overflow-x-auto lg:overflow-hidden">
           <ul className="flex h-full ">

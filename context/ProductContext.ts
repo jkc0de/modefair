@@ -8,12 +8,13 @@ export interface StateType {
   power: Configs;
   keyboard: string;
   price: number;
+  [key: string]: any;
 }
 
 export type ActionType = {
   type: "CHANGE_STATE";
   payload: {
-    field: keyof StateType;
+    field: keyof StateType | string;
     value: any;
   };
 };

@@ -26,7 +26,7 @@ export interface IOption {
 
 export interface IRadioCustom {
   data: Configs;
-  optionName: string;
+  optionName: any;
   option: IOption;
   checked?: boolean;
   disabled?: boolean;
