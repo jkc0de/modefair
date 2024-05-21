@@ -1,0 +1,1131 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro 14-inch",
+      "slug": "14-inch",
+      "chips": [
+        { "name": "M3", "slug": "m3" },
+        { "name": "M3 Pro", "slug": "m3-pro" },
+        { "name": "M3 Max", "slug": "m3-max" }
+      ],
+      "included": [
+        {
+          "name": "14-inch Macbook Pro",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-witb-silver-202310?wid=1136&hei=784&fmt=p-jpg&qlt=95&.v=1698689812419"
+        },
+        {
+          "name": "USB-C to MagSafe 3 Cable (2m)",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-witb-usb-c-magsafe-cable-silver-202310?wid=90&hei=784&fmt=p-jpg&qlt=95&.v=1698689792158"
+        },
+        {
+          "name": "USB-C Power Adapter",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-witb-70w-adapter-202310_GEO_MY?wid=484&hei=784&fmt=p-jpg&qlt=95&.v=1698689824641"
+        }
+      ],
+      "decision": [
+        {
+          "name": "Apple M3 chip",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-m3-icon-mac-202310?wid=72&hei=72&fmt=png-alpha&.v=1697482680961",
+          "description": "M3 brings serious speed and capability to blaze through everyday activities, multitask across apps and video calls, and handle elaborate content in pro apps and games",
+          "features": [
+            "Run multiple apps, speed through thousands of photos",
+            "Effortlessly edit 4K video",
+            "Configure with up to 24GB unified memory",
+            "Supports one external display"
+          ]
+        },
+        {
+          "name": "Apple M3 Pro chip",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-m3-pro-icon-mac-202310?wid=72&hei=72&fmt=png-alpha&.v=1696970981318",
+          "description": "Building on the M3 chip, M3 Pro provides even greater performance and additional unified memory for more demanding apps and workflows",
+          "features": [
+            "Manipulate gigapixel panoramas, compile millions of lines of code",
+            "Edit multiple streams of 8K video",
+            "Configure with up to 36GB unified memory",
+            "Supports up to two external displays"
+          ]
+        },
+        {
+          "name": "Apple M3 Max chip",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-m3-max-icon-mac-202310?wid=72&hei=72&fmt=png-alpha&.v=1696970981319",
+          "description": "M3 Max powers the most extreme workflows with even more CPU and GPU cores, enormous unified memory and an advanced Media Engine",
+          "features": [
+            "Render intricate 3D content, develop transformer models with billions of parameters",
+            "Tackle post-production of 8K video and beyond",
+            "Configure with up to 128GB unified memory",
+            "Supports up to four external displays"
+          ]
+        },
+        {
+          "name": "Unified Memory",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/memory-icon-mac-202310?wid=90&hei=72&fmt=png-alpha&.v=1696970981318",
+          "description": "Faster and more efficient than traditional RAM, unified memory is integrated within the M3 family of chips so apps can quickly share data between the CPU, GPU and Neural Engine",
+          "features": [
+            "Run multiple apps at once while performance remains fast and responsive",
+            "Add memory to run more apps simultaneously for faster, more fluid multitasking",
+            "With M3 Max, MacBook Pro can be configured with up to 128GB of memory"
+          ]
+        }
+      ],
+      "models": [
+        {
+          "id": 1,
+          "colors": [
+            {
+              "name": "Space Grey",
+              "slug": "space-grey",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764"
+              },
+              "productSlug": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-512gb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+              },
+              "productSlug": "14-inch-silver-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-512gb"
+            }
+          ],
+          "chip": { "name": "M3", "slug": "m3" },
+          "cpu": { "label": "8-core CPU", "slug": "8-core" },
+          "gpu": { "label": "10-core GPU", "slug": "10-core" },
+          "chipDetails": {
+            "label": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine",
+            "slug": "m3-chip-8-core-cpu-10-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "8GB Unified Memory", "slug": "8gb" },
+          "storage": { "label": "512GB SSD Storage¹", "slug": "512gb" },
+          "power": {
+            "label": "70W USB-C Power Adapter",
+            "slug": "70w"
+          },
+          "specs": {
+            "display": "14-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 7499.0,
+            "currency": "RM",
+            "instalment": "RM 312.46/mo. for 24mo.*"
+          },
+          "configurations": {
+            "memory": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "8GB unified memory",
+                  "slug": "8gb",
+                  "priceAddOn": 0,
+                  "requireChip": null
+                },
+                {
+                  "label": "16GB unified memory",
+                  "slug": "16gb",
+                  "priceAddOn": 800.0,
+                  "requireChip": null
+                },
+                {
+                  "label": "24GB unified memory",
+                  "slug": "24gb",
+                  "priceAddOn": 1600.0,
+                  "requireChip": null
+                }
+              ]
+            },
+            "storage": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "512GB SSD storage",
+                  "slug": "512gb",
+                  "priceAddOn": 0,
+                  "requireChip": null
+                },
+                {
+                  "label": "1TB SSD storage",
+                  "slug": "1tb",
+                  "priceAddOn": 800.0,
+                  "requireChip": null
+                },
+                {
+                  "label": "2TB SSD storage",
+                  "slug": "2tb",
+                  "priceAddOn": 2400.0,
+                  "requireChip": null
+                }
+              ]
+            },
+            "power": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "70W USB-C Power Adapter",
+                  "slug": "70w",
+                  "priceAddOn": 0
+                },
+                {
+                  "label": "96W USB-C Power Adapter",
+                  "slug": "96w",
+                  "priceAddOn": 80.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "colors": [
+            {
+              "name": "Space Grey",
+              "slug": "space-grey",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764"
+              },
+              "productSlug": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-1tb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+              },
+              "productSlug": "14-inch-silver-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-1tb"
+            }
+          ],
+          "chip": { "name": "M3", "slug": "m3" },
+          "cpu": { "label": "8-core CPU", "slug": "8-core" },
+          "gpu": { "label": "10-core GPU", "slug": "10-core" },
+          "chipDetails": {
+            "label": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine",
+            "slug": "m3-chip-8-core-cpu-10-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "8GB Unified Memory", "slug": "8gb" },
+          "storage": { "label": "1TB SSD Storage¹", "slug": "1tb" },
+          "power": {
+            "label": "70W USB-C Power Adapter",
+            "slug": "70w"
+          },
+          "specs": {
+            "display": "14-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 8299.0,
+            "currency": "RM",
+            "instalment": "RM 345.79/mo. for 24mo.*"
+          },
+          "configurations": {
+            "memory": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "8GB unified memory",
+                  "slug": "8gb",
+                  "priceAddOn": 0,
+                  "requireChip": null
+                },
+                {
+                  "label": "16GB unified memory",
+                  "slug": "16gb",
+                  "priceAddOn": 800.0,
+                  "requireChip": null
+                },
+                {
+                  "label": "24GB unified memory",
+                  "slug": "24gb",
+                  "priceAddOn": 1600.0,
+                  "requireChip": null
+                }
+              ]
+            },
+            "storage": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "512GB SSD storage",
+                  "slug": "512gb",
+                  "priceAddOn": 0,
+                  "requireChip": null
+                },
+                {
+                  "label": "1TB SSD storage",
+                  "slug": "1tb",
+                  "priceAddOn": 800.0,
+                  "requireChip": null
+                },
+                {
+                  "label": "2TB SSD storage",
+                  "slug": "2tb",
+                  "priceAddOn": 2400.0,
+                  "requireChip": null
+                }
+              ]
+            },
+            "power": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "70W USB-C Power Adapter",
+                  "slug": "70w",
+                  "priceAddOn": 0
+                },
+                {
+                  "label": "96W USB-C Power Adapter",
+                  "slug": "96w",
+                  "priceAddOn": 80.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "colors": [
+            {
+              "name": "Space Grey",
+              "slug": "space-grey",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764"
+              },
+              "productSlug": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-16gb-memory-1tb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+              },
+              "productSlug": "14-inch-silver-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-16gb-memory-1tb"
+            }
+          ],
+          "chip": { "name": "M3", "slug": "m3" },
+          "cpu": { "label": "8-core CPU", "slug": "8-core" },
+          "gpu": { "label": "10-core GPU", "slug": "10-core" },
+          "chipDetails": {
+            "label": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine",
+            "slug": "m3-chip-8-core-cpu-10-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "16GB Unified Memory", "slug": "16gb" },
+          "storage": { "label": "1TB SSD Storage¹", "slug": "1tb" },
+          "power": {
+            "label": "70W USB-C Power Adapter",
+            "slug": "70w"
+          },
+          "specs": {
+            "display": "14-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 9099.0,
+            "currency": "RM",
+            "instalment": "RM 379.13/mo. for 24mo.*"
+          },
+          "configurations": {
+            "memory": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "8GB unified memory",
+                  "slug": "8gb",
+                  "priceAddOn": 0,
+                  "requireChip": null
+                },
+                {
+                  "label": "16GB unified memory",
+                  "slug": "16gb",
+                  "priceAddOn": 800.0,
+                  "requireChip": null
+                },
+                {
+                  "label": "24GB unified memory",
+                  "slug": "24gb",
+                  "priceAddOn": 1600.0,
+                  "requireChip": null
+                }
+              ]
+            },
+            "storage": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "512GB SSD storage",
+                  "slug": "512gb",
+                  "priceAddOn": 0,
+                  "requireChip": null
+                },
+                {
+                  "label": "1TB SSD storage",
+                  "slug": "1tb",
+                  "priceAddOn": 800.0,
+                  "requireChip": null
+                },
+                {
+                  "label": "2TB SSD storage",
+                  "slug": "2tb",
+                  "priceAddOn": 2400.0,
+                  "requireChip": null
+                }
+              ]
+            },
+            "power": {
+              "footnote": "",
+              "configs": [
+                {
+                  "label": "70W USB-C Power Adapter",
+                  "slug": "70w",
+                  "priceAddOn": 0
+                },
+                {
+                  "label": "96W USB-C Power Adapter",
+                  "slug": "96w",
+                  "priceAddOn": 80.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830118",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381727"
+              },
+              "productSlug": "14-inch-space-black-apple-m3-pro-with-11-core-cpu-and-14-core-gpu-18gb-memory-512gb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+              },
+              "productSlug": "14-inch-silver-apple-m3-pro-with-11-core-cpu-and-14-core-gpu-18gb-memory-512gb"
+            }
+          ],
+          "chip": { "name": "M3 Pro", "slug": "m3-pro" },
+          "cpu": { "label": "11-core CPU", "slug": "11-core" },
+          "gpu": { "label": "14-core GPU", "slug": "14-core" },
+          "chipDetails": {
+            "label": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+            "slug": "m3-pro-chip-11-core-cpu-14-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "18GB Unified Memory", "slug": "18gb" },
+          "storage": { "label": "512GB SSD Storage¹", "slug": "512gb" },
+          "power": {
+            "label": "70W USB-C Power Adapter",
+            "slug": "70w"
+          },
+          "specs": {
+            "display": "14-inch Liquid Retina XDR display²",
+            "port": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 9999.0,
+            "currency": "RM",
+            "instalment": "RM 416.63/mo. for 24mo.*"
+          },
+          "configurations": {
+            "chip": {
+              "footnote": "Select M3 Max with 30-core GPU to add 96GB of memory. Select M3 Max with 40-core GPU to add 48GB, 64GB, or 128GB.",
+              "configs": [
+                {
+                  "label": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-pro-chip-11-core-cpu-14-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 0
+                },
+                {
+                  "label": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-pro-chip-12-core-cpu-18-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 800
+                },
+                {
+                  "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 2400
+                },
+                {
+                  "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 3600
+                }
+              ]
+            },
+            "memory": {
+              "footnote": "96GB available with M3 Max with 30-core GPU. 48GB, 64GB, or 128GB available with M3 Max with 40-core GPU.",
+              "configs": [
+                {
+                  "label": "18GB unified memory",
+                  "slug": "18gb",
+                  "priceAddOn": 0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "36GB unified memory",
+                  "slug": "36gb",
+                  "priceAddOn": 1600.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "48GB unified memory",
+                  "slug": "48gb",
+                  "priceAddOn": 2400.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "64GB unified memory",
+                  "slug": "64gb",
+                  "priceAddOn": 3200.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "96GB unified memory",
+                  "slug": "96gb",
+                  "priceAddOn": 4800.0,
+                  "requireChip": [
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "128GB unified memory",
+                  "slug": "128gb",
+                  "priceAddOn": 6400.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                }
+              ]
+            },
+            "storage": {
+              "footnote": "8TB available with M3 Max chip.",
+              "configs": [
+                {
+                  "label": "512GB SSD storage",
+                  "slug": "512gb",
+                  "priceAddOn": 0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "1TB SSD storage",
+                  "slug": "1tb",
+                  "priceAddOn": 800.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "2TB SSD storage",
+                  "slug": "2tb",
+                  "priceAddOn": 2400.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "4TB SSD storage",
+                  "slug": "4tb",
+                  "priceAddOn": 4800.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "8TB SSD storage",
+                  "slug": "8tb",
+                  "priceAddOn": 9600.0,
+                  "requireChip": [
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                }
+              ]
+            },
+            "power": {
+              "footnote": "96W USB-C Power Adapter included as free upgrade with selection of M3 Pro with 12‑core CPU, or M3 Max.",
+              "configs": [
+                {
+                  "label": "70W USB-C Power Adapter",
+                  "slug": "70w",
+                  "priceAddOn": 0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "96W USB-C Power Adapter",
+                  "slug": "96w",
+                  "priceAddOn": 80.0,
+                  "includeChip": [
+                    "m3-pro-chip-12-core-cpu-18-core-gpu-16-core-neural-engine",
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "requireChip": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830118",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381727"
+              },
+              "productSlug": "14-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-1tb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+              },
+              "productSlug": "14-inch-silver-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-1tb"
+            }
+          ],
+          "chip": { "name": "M3 Pro", "slug": "m3-pro" },
+          "cpu": { "label": "12-core CPU", "slug": "12-core" },
+          "gpu": { "label": "18-core GPU", "slug": "18-core" },
+          "memory": { "label": "18GB Unified Memory", "slug": "18gb" },
+          "chipDetails": {
+            "label": "Apple M3 Pro chip with 12-core CPU, 18-core GPU, 16-core Neural Engine",
+            "slug": "m3-pro-chip-12-core-cpu-18-core-gpu-16-core-neural-engine"
+          },
+          "storage": { "label": "1TB SSD Storage¹", "slug": "1tb" },
+          "power": {
+            "label": "96W USB-C Power Adapter",
+            "slug": "96w"
+          },
+          "specs": {
+            "display": "14-inch Liquid Retina XDR display²",
+            "port": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 11599.0,
+            "currency": "RM",
+            "instalment": "RM 483.29/mo. for 24mo.*"
+          },
+          "configurations": {
+            "chip": {
+              "footnote": "Select M3 Max with 30-core GPU to add 96GB of memory. Select M3 Max with 40-core GPU to add 48GB, 64GB, or 128GB.",
+              "configs": [
+                {
+                  "label": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-pro-chip-12-core-cpu-18-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 0
+                },
+                {
+                  "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 1600
+                },
+                {
+                  "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 2800
+                }
+              ]
+            },
+            "memory": {
+              "footnote": "96GB available with M3 Max with 30-core GPU. 48GB, 64GB, or 128GB available with M3 Max with 40-core GPU.",
+              "configs": [
+                {
+                  "label": "18GB unified memory",
+                  "slug": "18gb",
+                  "priceAddOn": 0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "36GB unified memory",
+                  "slug": "36gb",
+                  "priceAddOn": 1600.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "48GB unified memory",
+                  "slug": "48gb",
+                  "priceAddOn": 2400.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "64GB unified memory",
+                  "slug": "64gb",
+                  "priceAddOn": 3200.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "96GB unified memory",
+                  "slug": "96gb",
+                  "priceAddOn": 4800.0,
+                  "requireChip": [
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "128GB unified memory",
+                  "slug": "128gb",
+                  "priceAddOn": 6400.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                }
+              ]
+            },
+            "storage": {
+              "footnote": "8TB available with M3 Max chip.",
+              "configs": [
+                {
+                  "label": "1TB SSD storage",
+                  "slug": "1tb",
+                  "priceAddOn": 800.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "2TB SSD storage",
+                  "slug": "2tb",
+                  "priceAddOn": 2400.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "4TB SSD storage",
+                  "slug": "4tb",
+                  "priceAddOn": 4800.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "8TB SSD storage",
+                  "slug": "8tb",
+                  "priceAddOn": 9600.0,
+                  "requireChip": [
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830118",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381727"
+              },
+              "productSlug": "14-inch-space-black-apple-m3-max-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+              "gallery": {
+                "heroImage": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+              },
+              "productSlug": "14-inch-silver-apple-m3-max-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb"
+            }
+          ],
+          "chip": { "name": "M3 Max", "slug": "m3-max" },
+          "cpu": { "label": "14-core CPU", "slug": "14-core" },
+          "gpu": { "label": "30-core GPU", "slug": "30-core" },
+          "memory": { "label": "36GB Unified Memory", "slug": "36gb" },
+          "chipDetails": {
+            "label": "Apple M3 Max chip with 14-core CPU, 30-core GPU, 16-core Neural Engine",
+            "slug": "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine"
+          },
+          "storage": { "label": "1TB SSD Storage¹", "slug": "1tb" },
+          "power": {
+            "label": "96W USB-C Power Adapter",
+            "slug": "96w"
+          },
+          "specs": {
+            "display": "14-inch Liquid Retina XDR display²",
+            "port": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 14799.0,
+            "currency": "RM",
+            "instalment": "RM 616.63/mo. for 24mo.*"
+          },
+          "configurations": {
+            "chip": {
+              "footnote": "Select M3 Max with 30-core GPU to add 96GB of memory. Select M3 Max with 40-core GPU to add 48GB, 64GB, or 128GB.",
+              "configs": [
+                {
+                  "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 0
+                },
+                {
+                  "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                  "slug": "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine",
+                  "priceAddOn": 1200
+                }
+              ]
+            },
+            "memory": {
+              "footnote": "96GB available with M3 Max with 30-core GPU. 48GB, 64GB, or 128GB available with M3 Max with 40-core GPU.",
+              "configs": [
+                {
+                  "label": "36GB unified memory",
+                  "slug": "36gb",
+                  "priceAddOn": 0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "48GB unified memory",
+                  "slug": "48gb",
+                  "priceAddOn": 800.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "64GB unified memory",
+                  "slug": "64gb",
+                  "priceAddOn": 1600.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "96GB unified memory",
+                  "slug": "96gb",
+                  "priceAddOn": 3200.0,
+                  "requireChip": [
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                },
+                {
+                  "label": "128GB unified memory",
+                  "slug": "128gb",
+                  "priceAddOn": 4800.0,
+                  "requireChip": [
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                }
+              ]
+            },
+            "storage": {
+              "footnote": "8TB available with M3 Max chip.",
+              "configs": [
+                {
+                  "label": "1TB SSD storage",
+                  "slug": "1tb",
+                  "priceAddOn": 0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "2TB SSD storage",
+                  "slug": "2tb",
+                  "priceAddOn": 1600.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "4TB SSD storage",
+                  "slug": "4tb",
+                  "priceAddOn": 4000.0,
+                  "includeChip": null,
+                  "requireChip": null
+                },
+                {
+                  "label": "8TB SSD storage",
+                  "slug": "8tb",
+                  "priceAddOn": 8800.0,
+                  "requireChip": [
+                    "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine",
+                    "m3-max-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+                  ],
+                  "includeChip": null
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro 16-inch",
+      "slug": "16-inch",
+      "chips": [
+        { "name": "M3 Pro", "slug": "m3-pro" },
+        { "name": "M3 Max", "slug": "m3-max" }
+      ],
+      "included": [
+        {
+          "name": "16-inch Macbook Pro",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-witb-spaceblack-202310?wid=1216&hei=784&fmt=p-jpg&qlt=95&.v=1698689790358"
+        },
+        {
+          "name": "USB-C to MagSafe 3 Cable (2m)",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-witb-usb-c-magsafe-cable-spaceblack-202310?wid=90&hei=784&fmt=p-jpg&qlt=95&.v=1698689793932"
+        },
+        {
+          "name": "140W USB-C Power Adapter",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-witb-140w-adapter-202310_GEO_MY?wid=438&hei=784&fmt=p-jpg&qlt=95&.v=1698692438971"
+        }
+      ],
+      "decision": [
+        {
+          "name": "Apple M3 Pro chip",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-m3-pro-icon-mac-202310?wid=72&hei=72&fmt=png-alpha&.v=1696970981318",
+          "description": "Building on the M3 chip, M3 Pro provides even greater performance and additional unified memory for more demanding apps and workflows",
+          "features": [
+            "Manipulate gigapixel panoramas, compile millions of lines of code",
+            "Edit multiple streams of 8K video",
+            "Configure with up to 36GB unified memory",
+            "Supports up to two external displays"
+          ]
+        },
+        {
+          "name": "Apple M3 Max chip",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-m3-max-icon-mac-202310?wid=72&hei=72&fmt=png-alpha&.v=1696970981319",
+          "description": "M3 Max powers the most extreme workflows with even more CPU and GPU cores, enormous unified memory and an advanced Media Engine",
+          "features": [
+            "Render intricate 3D content, develop transformer models with billions of parameters",
+            "Tackle post-production of 8K video and beyond",
+            "Configure with up to 128GB unified memory",
+            "Supports up to four external displays"
+          ]
+        },
+        {
+          "name": "Unified Memory",
+          "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/memory-icon-mac-202310?wid=90&hei=72&fmt=png-alpha&.v=1696970981318",
+          "description": "Faster and more efficient than traditional RAM, unified memory is integrated within the M3 family of chips so apps can quickly share data between the CPU, GPU and Neural Engine",
+          "features": [
+            "Run multiple apps at once while performance remains fast and responsive",
+            "Add memory to run more apps simultaneously for faster, more fluid multitasking",
+            "With M3 Max, MacBook Pro can be configured with up to 128GB of memory"
+          ]
+        }
+      ],
+      "models": [
+        {
+          "id": 1,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+              "productSlug": "16-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-512gb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+              "productSlug": "16-inch-silver-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-512gb"
+            }
+          ],
+          "chip": { "name": "M3 Pro", "slug": "m3-pro" },
+          "cpu": { "label": "12-core CPU", "slug": "12-core" },
+          "gpu": { "label": "18-core GPU", "slug": "18-core" },
+          "chipDetails": {
+            "label": "Apple M3 Pro chip with 12-core CPU, 18-core GPU, 16-core Neural Engine",
+            "slug": "m3-pro-chip-12-core-cpu-18-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "18GB Unified Memory", "slug": "18gb" },
+          "storage": { "label": "512GB SSD Storage¹", "slug": "512gb" },
+          "power": {
+            "label": "140W USB-C Power Adapter",
+            "slug": "140w"
+          },
+          "specs": {
+            "display": "16-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 11999.0,
+            "currency": "RM",
+            "instalment": "RM 499.96/mo. for 24mo.*"
+          }
+        },
+        {
+          "id": 2,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+              "productSlug": "16-inch-space-black-apple-m3-with-12-core-cpu-and-18-core-gpu-36gb-memory-512gb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+              "productSlug": "16-inch-silver-apple-m3-with-12-core-cpu-and-18-core-gpu-36gb-memory-512gb"
+            }
+          ],
+          "chip": { "name": "M3 Pro", "slug": "m3-pro" },
+          "cpu": { "label": "12-core CPU", "slug": "12-core" },
+          "gpu": { "label": "18-core GPU", "slug": "18-core" },
+          "chipDetails": {
+            "label": "Apple M3 Pro chip with 12-core CPU, 18-core GPU, 16-core Neural Engine",
+            "slug": "m3-pro-chip-12-core-cpu-18-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "36GB Unified Memory", "slug": "36gb" },
+          "storage": { "label": "512GB SSD Storage¹", "slug": "512gb" },
+          "power": {
+            "label": "140W USB-C Power Adapter",
+            "slug": "140w"
+          },
+          "specs": {
+            "display": "16-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 13599.0,
+            "currency": "RM",
+            "instalment": "RM 566.63/mo. for 24mo.*"
+          }
+        },
+        {
+          "id": 3,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+              "productSlug": "16-inch-space-black-apple-m3-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+              "productSlug": "16-inch-silver-apple-m3-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb"
+            }
+          ],
+          "chip": { "name": "M3 Max", "slug": "m3-max" },
+          "cpu": { "label": "14-core CPU", "slug": "14-core" },
+          "gpu": { "label": "30-core GPU", "slug": "30-core" },
+          "chipDetails": {
+            "label": "Apple M3 Max chip with 14-core CPU, 30-core GPU, 16-core Neural Engine",
+            "slug": "m3-max-chip-14-core-cpu-30-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "36GB Unified Memory", "slug": "36gb" },
+          "storage": { "label": "1TB SSD Storage¹", "slug": "1tb" },
+          "power": {
+            "label": "140W USB-C Power Adapter",
+            "slug": "140w"
+          },
+          "specs": {
+            "display": "16-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 15999.0,
+            "currency": "RM",
+            "instalment": "RM 666.63/mo. for 24mo.*"
+          }
+        },
+        {
+          "id": 4,
+          "colors": [
+            {
+              "name": "Space Black",
+              "slug": "space-black",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+              "productSlug": "16-inch-space-black-apple-m3-pro-with-16-core-cpu-and-40-core-gpu-48gb-memory-1tb"
+            },
+            {
+              "name": "Silver",
+              "slug": "silver",
+              "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+              "productSlug": "16-inch-silver-apple-m3-pro-with-16-core-cpu-and-40-core-gpu-48gb-memory-1tb"
+            }
+          ],
+          "chip": { "name": "M3 Pro", "slug": "m3-pro" },
+          "cpu": { "label": "16-core CPU", "slug": "16-core" },
+          "gpu": { "label": "40-core GPU", "slug": "40-core" },
+          "chipDetails": {
+            "label": "Apple M3 Pro chip with 16-core CPU, 40-core GPU, 16-core Neural Engine",
+            "slug": "m3-pro-chip-16-core-cpu-40-core-gpu-16-core-neural-engine"
+          },
+          "memory": { "label": "48GB Unified Memory", "slug": "48gb" },
+          "storage": { "label": "1TB SSD Storage¹", "slug": "1tb" },
+          "power": {
+            "label": "140W USB-C Power Adapter",
+            "slug": "140w"
+          },
+          "specs": {
+            "display": "16-inch Liquid Retina XDR display²",
+            "port": "Two Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "keyboard": "Magic Keyboard with Touch ID",
+            "trackpad": "Force Touch trackpad"
+          },
+          "pricing": {
+            "price": 17999.0,
+            "currency": "RM",
+            "instalment": "RM 749.96/mo. for 24mo.*"
+          }
+        }
+      ]
+    }
+  ]
+}
