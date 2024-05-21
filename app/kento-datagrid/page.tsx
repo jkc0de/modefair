@@ -39,7 +39,11 @@ export default function DataGrid() {
 
   return (
     <main className="mx-auto flex h-screen w-[85%] items-center justify-center">
-      <Grid data={data} detail={DetailComponent} style={{ height: "400px" }}>
+      <Grid
+        data={data}
+        detail={DetailComponent}
+        style={{ height: "400px", overflow: "scroll" }}
+      >
         <Column field="ProductName" title="Product" width="300px" />
         <Column field="ProductID" title="ID" width="50px" />
         <Column field="UnitPrice" title="Unit Price" width="100px" />

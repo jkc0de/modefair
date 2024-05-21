@@ -1,5 +1,5 @@
 import React from "react";
-import { IGrid, IProduct } from "@/interface/DataGridInterface";
+import { IGrid } from "@/interface/DataGridInterface";
 import Row from "./Row";
 
 export default function Grid({ data, detail, style, children }: IGrid) {
