@@ -20,7 +20,7 @@ export default function Gallery({
       <div className="relative h-full w-full">
         <Slider {...settings}>
           {gallery?.map((item, index) => (
-            <div className="relative h-full w-full bg-[#fafafa]">
+            <div key={index} className="relative h-full w-full bg-[#fafafa]">
               <Image
                 src={item.image}
                 height={0}
