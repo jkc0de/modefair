@@ -58,7 +58,7 @@ export default function BundleItem({ data }: { data: Model }) {
                       width={30}
                       height={30}
                       alt={color.name}
-                      className="relative z-0 aspect-auto rounded-[50%] p-0.5"
+                      className="relative z-0 aspect-auto rounded-[50%] p-0.5 outline-8 outline-green-500"
                     />
                   ),
                 }}

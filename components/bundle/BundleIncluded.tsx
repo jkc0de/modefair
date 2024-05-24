@@ -4,6 +4,7 @@ import { useContext } from "react";
 import Image from "next/image";
 import { BundleContext } from "@/context/BundleContext";
 import ProductData from "@/data/AppleProducts.json";
+import Gallery from "../common/Gallery";
 
 export default function BundleIncluded() {
   const bundle = useContext(BundleContext);
@@ -21,8 +22,8 @@ export default function BundleIncluded() {
         <h2 className="pb-[41px] pt-16 text-center text-[28px] leading-[1.1] md:text-[40px]">
           What&apos;s in the Box
         </h2>
-        <div className="relative overflow-x-auto lg:overflow-hidden">
-          <ul className="flex h-full ">
+        {/* <div className="relative overflow-x-auto lg:overflow-hidden"> */}
+        {/* <ul className="flex h-full ">
             {includedItems.map((item, index) => (
               <li key={index} className=" w-full flex-shrink-0 md:w-auto">
                 <div className="bg-[#fafafa]">
@@ -41,9 +42,13 @@ export default function BundleIncluded() {
                 </div>
               </li>
             ))}
-          </ul>
+          </ul> */}
+        <div>
+          <Gallery gallery={includedItems} />
         </div>
-        <div className="flex justify-center md:hidden">
+
+        {/* </div> */}
+        {/* <div className="flex justify-center md:hidden">
           {includedItems.map((_, index) => (
             <div
               key={index}
@@ -52,7 +57,7 @@ export default function BundleIncluded() {
               }`}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     )
   );

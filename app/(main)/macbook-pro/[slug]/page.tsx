@@ -325,66 +325,67 @@ export default function ProductDetailsPage({
         <ProductContext.Provider value={{ state, dispatch }}>
           <div className="relative">
             <ProductSummary />
-          </div>
-          <div className="mx-auto flex w-[87.5%] flex-col flex-wrap md:mt-[52px] md:flex-row lg:w-[980px]">
-            <div className="flex-end flex basis-1/2 flex-col  pt-[43px] text-[32px] font-semibold leading-[1.25] tracking-[0.004em] md:ms-[50%] md:pt-[19px]">
-              Customise your 14-inch MacBook Pro -{" "}
-              {updatedProductData.color?.name}
-            </div>
-            <div className="relative w-full text-center md:-top-[63px] md:max-w-[50%] md:basis-1/2">
-              <div className="mx-auto mb-[50px] mt-[22px] text-center md:sticky md:top-0 md:me-[60px] md:mt-0">
-                <Image
-                  src={updatedProductData.color?.gallery?.heroImage || ""}
-                  height={0}
-                  width={0}
-                  sizes="100"
-                  alt={updatedProductData.color?.name || ""}
-                  style={{ width: "410px", height: "auto" }}
-                  className="mx-auto hidden ps-[10px] md:block"
-                />
 
-                <Image
-                  src={updatedProductData.color?.gallery?.heroImage || ""}
-                  height={0}
-                  width={0}
-                  sizes="100"
-                  alt={updatedProductData.color?.name || ""}
-                  style={{ width: "242px", height: "auto" }}
-                  className="mx-auto block md:hidden"
-                />
-                <div className="mb-[35px] w-full max-w-[490px] pt-[22px] text-center">
-                  <ButtonLink
-                    type="button"
-                    label="View gallery"
-                    textAlign="text-center"
+            <div className="mx-auto flex w-[87.5%] flex-col flex-wrap md:mt-[52px] md:flex-row lg:w-[980px]">
+              <div className="flex-end flex basis-1/2 flex-col  pt-[43px] text-[32px] font-semibold leading-[1.25] tracking-[0.004em] md:ms-[50%] md:pt-[19px]">
+                Customise your 14-inch MacBook Pro -{" "}
+                {updatedProductData.color?.name}
+              </div>
+              <div className="relative w-full text-center md:-top-[63px] md:max-w-[50%] md:basis-1/2">
+                <div className="mx-auto mb-[50px] mt-[22px] text-center md:sticky md:top-0 md:me-[60px] md:mt-0">
+                  <Image
+                    src={updatedProductData.color?.gallery?.heroImage || ""}
+                    height={0}
+                    width={0}
+                    sizes="100"
+                    alt={updatedProductData.color?.name || ""}
+                    style={{ width: "410px", height: "auto" }}
+                    className="mx-auto hidden ps-[10px] md:block"
                   />
-                </div>
-                <div className="hidden md:block">
-                  <FreeDeliveryAndReturnsBanner />
-                  <OnlineChat />
-                </div>
-              </div>
-            </div>
-            <div className="flex-end flex h-auto w-full flex-col pb-[14px] md:w-[490px] md:max-w-[50%] md:basis-1/2">
-              <ProductDetails data={updatedProductData} />
-              <div>
-                <TradeInBannerTwo />
-              </div>
 
-              {updatedProductData?.configurations && (
+                  <Image
+                    src={updatedProductData.color?.gallery?.heroImage || ""}
+                    height={0}
+                    width={0}
+                    sizes="100"
+                    alt={updatedProductData.color?.name || ""}
+                    style={{ width: "242px", height: "auto" }}
+                    className="mx-auto block md:hidden"
+                  />
+                  <div className="mb-[35px] w-full max-w-[490px] pt-[22px] text-center">
+                    <ButtonLink
+                      type="button"
+                      label="View gallery"
+                      textAlign="text-center"
+                    />
+                  </div>
+                  <div className="hidden md:block">
+                    <FreeDeliveryAndReturnsBanner />
+                    <OnlineChat />
+                  </div>
+                </div>
+              </div>
+              <div className="flex-end flex h-auto w-full flex-col pb-[14px] md:w-[490px] md:max-w-[50%] md:basis-1/2">
+                <ProductDetails data={updatedProductData} />
                 <div>
-                  <ProductConfiguration
-                    data={updatedProductData.configurations}
-                  />
+                  <TradeInBannerTwo />
                 </div>
-              )}
 
-              <div className="mt-[14px] bg-[#fafafc] p-[30px]">
-                <SaveBanner />
-              </div>
-              <div className="mt-3 block md:hidden">
-                <OnlineChat />
-                <FreeDeliveryAndReturnsBanner />
+                {updatedProductData?.configurations && (
+                  <div>
+                    <ProductConfiguration
+                      data={updatedProductData.configurations}
+                    />
+                  </div>
+                )}
+
+                <div className="mt-[14px] bg-[#fafafc] p-[30px]">
+                  <SaveBanner />
+                </div>
+                <div className="mt-3 block md:hidden">
+                  <OnlineChat />
+                  <FreeDeliveryAndReturnsBanner />
+                </div>
               </div>
             </div>
           </div>

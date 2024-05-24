@@ -25,16 +25,18 @@ export default function AppleLayout({
         dispatch,
       }}
     >
-      <main className={` mx-auto flex flex-col justify-center`}>
-        <div className="border-b">
+      <main className={`relative mx-auto flex h-full flex-col justify-center`}>
+        <div className="relative h-full border-b">
           <MainNavBar />
         </div>
 
-        <div className="bg-[#f5f5f7]">
+        <div className="relative h-full bg-[#f5f5f7]">
           <Tagline />
         </div>
 
-        <main className="mx-auto w-full flex-grow ">{children}</main>
+        <main className="relative mx-auto h-full w-full flex-grow ">
+          {children}
+        </main>
         <Footer />
       </main>
     </FooterContext.Provider>

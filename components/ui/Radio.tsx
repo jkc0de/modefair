@@ -87,7 +87,7 @@ export function RadioColor({
   onChange,
 }: IRadioColor) {
   return (
-    <div className="ms-0 flex items-center justify-center">
+    <div className="ms-0 flex h-10 w-10 items-center justify-center">
       <label className="relative me-1.5 cursor-pointer items-center">
         <input
           type="radio"
@@ -95,10 +95,10 @@ export function RadioColor({
           value={option?.value}
           onChange={onChange}
           checked={checked}
-          className="sr-only"
+          className="peer sr-only"
         />
         <div
-          className={`rounded-[50%] border-primary ${checked ? " ring-2 ring-primary" : ""}`}
+          className={`rounded-[50%] border-primary ${checked ? "ring-2 ring-primary " : ""} inline-block outline-offset-4 focus:outline-offset-2 peer-focus:outline peer-focus:outline-2 peer-focus:outline-[#0071e3]`}
         >
           {option?.label}
         </div>
